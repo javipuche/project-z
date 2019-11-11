@@ -24,6 +24,7 @@ export default {
      ** Global CSS
      */
     css: [
+        './assets/scss/styles.scss'
     ],
     /*
      ** Plugins to load before mounting the App
@@ -47,7 +48,9 @@ export default {
     ],
     styleResources: {
         scss: [
-            './assets/scss/styles.scss'
+            './assets/scss/settings/_settings.scss',
+            './assets/scss/tools/_tools.scss',
+            './assets/scss/foundations/_foundations.scss'
         ]
     },
     /*

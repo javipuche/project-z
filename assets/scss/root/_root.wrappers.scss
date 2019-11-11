@@ -1,0 +1,8 @@
+@mixin root-wrappers {
+  --wrapper-xs: #{em((400px))};
+  --wrapper-s: #{em((700px))};
+  --wrapper-m: #{em((1000px))};
+  --wrapper-l: #{em((1366px))};
+  --wrapper-xl: #{em((1600px))};
+  --wrapper-2xl: #{em((1920px))};
+}

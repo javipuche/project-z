@@ -1,0 +1,13 @@
+@mixin root-colors {
+  --color-primary-hue: 153;
+  --color-primary-saturation: 48%;
+  --color-primary-lumnosity: 46%;
+  --color-primary-hsl: var(--color-primary-hue), var(--color-primary-saturation), var(--color-primary-lumnosity);
+  --color-primary: hsl(var(--color-primary-hsl));
+
+  // Grery colors
+  @for $i from 0 through 20 {
+    --color-shade-#{$i * 100}-hsl: 0, 0%, #{100 - ($i * 5)}#{'%'};
+    --color-shade-#{$i * 100}: #{'hsl(var(--color-shade-#{$i * 100}-hsl))'};
+  }
+}

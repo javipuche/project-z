@@ -1,0 +1,25 @@
+@import "root.colors";
+@import "root.font-families";
+@import "root.font-sizes";
+@import "root.line-heights";
+@import "root.font-weights";
+@import "root.radiuses";
+@import "root.shadows";
+@import "root.spaces";
+@import "root.wrappers";
+@import "root.z-index";
+@import "root.custom";
+
+:root {
+  @include root-colors;
+  @include root-font-families;
+  @include root-font-sizes;
+  @include root-line-heights;
+  @include root-font-weights;
+  @include root-radiuses;
+  @include root-shadows;
+  @include root-spaces;
+  @include root-wrappers;
+  @include root-z-index;
+  @include root-custom; // Always last
+}

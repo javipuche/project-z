@@ -1,0 +1,15 @@
+@mixin root-spaces {
+  --space-3xs: #{em((2px))};
+  --space-2xs: #{em((4px))};
+  --space-xs: #{em((8px))};
+  --space-s: #{em((16px))};
+  --space-m: #{em((24px))};
+  --space-l: #{em((32px))};
+  --space-xl: #{em((40px))};
+  --space-2xl: #{em((48px))};
+  --space-3xl: #{em((56px))};
+  --space-4xl: #{em((64px))};
+  --space-5xl: #{em((72px))};
+  --space-6xl: #{em((80px))};
+  --space-7xl: #{em((88px))};
+}
