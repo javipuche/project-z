@@ -1,18 +1,23 @@
 <template>
     <div class="container">
         <div>
-            <logo />
-            home
+            <HelloWorld />
+            <div class="caca">
+                home
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-    import Logo from '~/components/Logo.vue'
-
     export default {
         components: {
-            Logo
         }
     }
 </script>
+
+<style lang="scss" scoped>
+  .caca {
+    color: yellow;
+  }
+</style>

@@ -30,6 +30,7 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [
+        '~plugins/myLib.js'
     ],
     /*
      ** Nuxt.js dev-modules
@@ -66,6 +67,9 @@ export default {
         /*
          ** You can extend webpack config here
          */
+        transpile: [
+            'test-project-f'
+        ],
         plugins: [
             new StylelintPlugin({
                 files: ['**/*.s?(a|c)ss', '**/*.vue']
